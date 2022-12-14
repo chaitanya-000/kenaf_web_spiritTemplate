@@ -291,9 +291,11 @@ body,
 }
 
 .section_head p {
-  padding: 30px 0;
+  padding: 40px 0;
 }
-
+.section_head h2 {
+  margin-top: 15%;
+}
 /* multi Css End */
 
 /* All Section Css Start */
@@ -606,7 +608,7 @@ h2 span {
 }
 
 .DownloadBtn:hover {
-  border: 0.5px solid white;
+  border: 2.5px solid white;
 }
 /* arrows */
 
@@ -715,7 +717,7 @@ h2 span {
 }
 
 .about_left {
-  background: url(../images/about.jpg);
+  /* background: url(../images/about.jpg); */
   background-position: center;
   background-size: cover;
   position: relative;
@@ -729,13 +731,13 @@ h2 span {
   width: 100%;
   left: 0;
   top: 0;
-  background: rgba(0, 0, 0, 0.6);
+  /* background: rgba(0, 0, 0, 0.6); */
 }
 
 .about_left_inner {
   position: relative;
-  z-index: 20;
-  padding: 100px 0;
+  /* z-index: 20; */
+  padding: 45px 50px;
 }
 
 .about_left i {
@@ -765,7 +767,7 @@ h2 span {
 }
 
 .about_right p {
-  padding-bottom: 10px;
+  padding-bottom: 3px;
 }
 
 .about_right ul {
