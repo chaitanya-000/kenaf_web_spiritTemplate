@@ -310,6 +310,7 @@ body,
 #about_part {
   padding: 73px 0 80px;
   background: #fff;
+  /* border: 2px solid red; */
 }
 
 h2 {
@@ -317,7 +318,7 @@ h2 {
   font-weight: 600;
   padding-bottom: 30px;
   position: relative;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   display: inline-block;
 }
 
@@ -592,23 +593,38 @@ h2 span {
 .ButtonContainer {
   display: inline-flex;
   /* justify-content: space-between; */
-  /* width: 33%; */
+  width: 33%;
   /* height: 20%; */
-  margin-top: 1.4%;
+  margin-top: 2%;
   /* border: 2px solid red; */
+  max-width: 50%;
+  min-width: 80%;
+}
+.ButtonContainer a {
+  /* width: 40%; */
+  /* border: 1px solid darkblue; */
+  outline: none;
 }
 
 .AppStore {
   margin-right: 4%;
 }
 .ButtonContainer img {
-  width: 35%;
+  /* border: 2px solid red; */
+  width: 100%;
   height: 100%;
-  min-width: 10%;
+  transition: border 0.8s;
+  transition: 0.8s;
+  max-width: 80%;
 }
 
 .DownloadBtn:hover {
-  border: 2.5px solid white;
+  border: 2px solid white;
+  /* width: 78%; */
+  cursor: pointer;
+  -webkit-box-shadow: -2px 0px 34px -8px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: -2px 0px 34px -8px rgba(0, 0, 0, 0.5);
+  box-shadow: -2px 0px 34px -8px rgba(0, 0, 0, 0.5);
 }
 /* arrows */
 
@@ -767,7 +783,7 @@ h2 span {
 }
 
 .about_right p {
-  padding-bottom: 3px;
+  padding-bottom: 80px;
 }
 
 .about_right ul {
@@ -1943,7 +1959,22 @@ h2 span {
   }
 }
 
+/* Styles added for kenaf customization */
 .backtotop_btn {
   font-size: 18px;
   transition: all 0.4s;
+}
+
+#about_part_HowItWorks {
+  border: 1px solid red;
+  background-color: #fff7ea;
+  padding: 110px 0px;
+}
+#about_part_HowItWorks .container .row {
+  /* border: 2px solid orange; */
+  background-color: white;
+  border-radius: 26px;
+  /* display: flex; */
+
+  /* align-items: center; */
 }

@@ -1612,6 +1612,7 @@ pre code {
 .row {
   margin-right: -15px;
   margin-left: -15px;
+  /* border: 2px solid green; */
 }
 .col-lg-1,
 .col-lg-10,
