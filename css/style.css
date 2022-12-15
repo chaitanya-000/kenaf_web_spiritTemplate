@@ -2009,3 +2009,21 @@ h2 span {
   border: 2px solid red;
   width: 30%;
 }
+
+/* ForRetailers */
+.ForRetailers button {
+  border: 1px solid rgba(38, 174, 96, 1);
+  padding: 2.2% 4%;
+  border-radius: 10px;
+  font-size: 1em;
+  color: rgba(38, 174, 96, 1);
+  text-transform: uppercase;
+  background-color: transparent;
+  position: absolute;
+  bottom: 2%;
+}
+
+.ForRetailers .visible-xs button {
+  position: absolute;
+  left: 35%;
+}
